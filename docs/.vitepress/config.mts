@@ -8,6 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Contribute', link: '/contributing' },
       { text: 'General', link: '/servers/general/' },
       { text: 'Survival', link: '/servers/survival/' },
       { text: 'Creative', link: '/servers/creative/' },

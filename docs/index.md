@@ -14,11 +14,11 @@ hero:
       text: How to Join
       link: /#how-to-join
     - theme: alt
+      text: Contribute
+      link: /contributing
+    - theme: alt
       text: Server Rules
       link: /servers/general/rules
-    - theme: alt
-      text: Join our Discord
-      link: https://discord.gg/38E7gFPfgP
 
 features:
   - title: General
@@ -37,6 +37,10 @@ features:
     details: Oneblock phases, island progression, and mode-specific mechanics.
     link: /servers/oneblock/
     linkText: Open Oneblock
+  - title: Contributions
+    details: Learn how to submit wiki updates through GitHub pull requests against the development branch.
+    link: /contributing
+    linkText: View Contribution Guide
 ---
 
 ## How to Join

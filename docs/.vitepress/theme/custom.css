@@ -13,7 +13,7 @@
   --vp-c-brand-2: #f0b74f;
   --vp-c-brand-3: #fbe6a8;
   --vp-c-brand-soft: rgba(246, 211, 106, 0.18);
-  --wse-panel-bg: rgba(255, 251, 245, 0.9);
+  --wse-panel-bg: rgba(255, 251, 245, 0.96);
   --wse-nav-bg: rgba(247, 242, 234, 0.86);
   --wse-sidebar-bg: rgba(245, 238, 228, 0.88);
   --wse-panel-border: rgba(114, 91, 62, 0.24);
@@ -56,7 +56,7 @@
   --vp-c-text-1: #f6eefc;
   --vp-c-text-2: #c8bddb;
   --vp-c-text-3: #a79abd;
-  --wse-panel-bg: rgba(15, 12, 10, 0.88);
+  --wse-panel-bg: rgba(15, 12, 10, 0.94);
   --wse-nav-bg: rgba(20, 20, 27, 0.85);
   --wse-sidebar-bg: rgba(14, 12, 18, 0.82);
   --wse-panel-border: rgba(50, 36, 63, 0.9);
@@ -79,6 +79,7 @@ body {
   background: url('/assets/images/background.png') no-repeat center center fixed;
   background-size: cover;
   position: relative;
+  isolation: isolate;
 }
 
 body::before {
@@ -89,7 +90,7 @@ body::before {
     radial-gradient(circle at 85% 20%, rgba(246, 211, 106, 0.18), transparent 40%),
     rgba(247, 244, 238, 0.6);
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
 }
 
 .dark body::before {
@@ -145,11 +146,16 @@ h3 {
 
 .VPFeature,
 .vp-doc table,
-.vp-doc blockquote {
+.vp-doc blockquote,
+.VPDoc .content,
+.VPHome .VPHomeContent {
   background: var(--wse-panel-bg);
   border: 1px solid var(--wse-panel-border);
   border-radius: 16px;
   box-shadow: var(--wse-panel-shadow);
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
 }
 
 .vp-doc table {
@@ -191,11 +197,7 @@ h3 {
 
 .VPDoc .content,
 .VPHome .VPHomeContent {
-  background: var(--wse-panel-bg);
-  border: 1px solid var(--wse-panel-border);
-  border-radius: 16px;
   padding: 1.25rem;
-  box-shadow: var(--wse-panel-shadow);
 }
 
 .claiming-page .vp-doc table {
