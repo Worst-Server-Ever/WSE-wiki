@@ -7,6 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: 'Back to Website', link: 'https://worstserverever.com/' },
       { text: 'Home', link: '/' },
       { text: 'Contribute', link: '/contributing' },
       { text: 'General', link: '/servers/general/' },
