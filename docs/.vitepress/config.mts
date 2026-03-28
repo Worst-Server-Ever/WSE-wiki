@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Worst Server Ever Wiki",
   description: "Wiki for the Worst Server Ever",
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/assets/images/icon.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
