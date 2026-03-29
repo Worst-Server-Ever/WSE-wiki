@@ -1,6 +1,6 @@
 # Player Warps
 
-Player warps are public warps created and managed by players.
+Player warps are public warps created and managed by players. They must be created inside a claim.
 
 Some commands below are admin-only.
 
