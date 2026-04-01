@@ -8,6 +8,6 @@ Use this section for gameplay guides, progression info, and Survival-specific co
 
 - [Claiming (GriefPrevention)](/servers/survival/claiming)
 - [EvenMoreFish](/servers/survival/evenmorefish)
-- [How to Make E-Maralds](/servers/survival/e-maralds)
+- [How to Make E-Maralds](/servers/survival/e-meralds)
 - [Survival Commands](/servers/survival/commands)
 - [Player Warps](/servers/survival/player-warps)

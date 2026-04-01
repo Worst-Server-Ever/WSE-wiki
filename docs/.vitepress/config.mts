@@ -64,7 +64,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/38E7gFPfgP' },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Worst-Server-Ever/WSE-wiki' }
     ]
   }
 })
