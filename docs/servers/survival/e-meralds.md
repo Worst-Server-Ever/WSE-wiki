@@ -1,13 +1,13 @@
-# How to Make E-Maralds
+# How to Make E-Meralds
 
 Survival uses an emerald-based currency.
 
-You can also store value as **E-Maralds**, which are the digital counterpart to physical emeralds.
+You can also store value as **E-Meralds**, which are the digital counterpart to physical emeralds.
 
 ## Where to Sell
 
 - Go to `/spawn` and use the sell shops.
-- Use the **E-Marald Exchange** at spawn to handle E-Marald conversions.
+- Use the **E-Merald Exchange** at spawn to handle E-Merald conversions.
 - Each shop trade has daily limits.
 - Limits include:
   - `Max Trades/Day` (how many times you can do the trade)

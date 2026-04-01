@@ -38,7 +38,7 @@ export default defineConfig({
             { text: 'Survival Overview', link: '/servers/survival/' },
             { text: 'Claiming (GriefPrevention)', link: '/servers/survival/claiming' },
             { text: 'EvenMoreFish', link: '/servers/survival/evenmorefish' },
-            { text: 'How to Make E-Maralds', link: '/servers/survival/e-maralds' },
+            { text: 'How to Make E-Meralds', link: '/servers/survival/e-meralds' },
             { text: 'Survival Commands', link: '/servers/survival/commands' },
             { text: 'Player Warps', link: '/servers/survival/player-warps' }
           ]
