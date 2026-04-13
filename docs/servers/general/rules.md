@@ -104,6 +104,14 @@ These rules apply across WSE. Gamemode-specific rules are included below.
 
 - Trapping players in any way is not allowed, even if PvP is enabled.
 
+### AFK
+
+- Players are marked as AFK after **5 minutes of inactivity**. While AFK, playtime and playtime rewards are paused.  
+- Do not abuse or bypass the AFK system to gain rewards unfairly.  
+- The AFK area provides **reduced rewards every 5 minutes**. You must remain properly AFK to receive these.  
+- Do not attempt to avoid being marked AFK while in the AFK area to gain both normal and AFK rewards.  
+- Do not perform activities such as moving, interacting, or fishing in the AFK area to gain rewards while not truly AFK.
+
 ## 💎 Economy Rules
 
 ### Respect the economy
