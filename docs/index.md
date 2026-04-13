@@ -45,6 +45,8 @@ features:
 
 ## How to Join
 
+<div class="join-box">
+
 ### Java Edition (PC)
 
 1. Open Minecraft Java Edition.
@@ -64,3 +66,5 @@ features:
 
 Use the console guide:
 [How to Join on Console](/servers/general/console)
+
+</div>

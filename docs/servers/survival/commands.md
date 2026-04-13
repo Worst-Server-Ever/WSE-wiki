@@ -26,6 +26,7 @@ You can unlock more homes with ranks, and your placed bed location also works as
 | `balance` | Check your money balance. |
 | `pay [playerName] [amount]` | Send E-Maralds to another player. |
 | `playtime` | Show your total playtime. |
+| `rewards` | Open the rewards menu to view or claim rewards. |
 | `spawn` | Teleport back to spawn. |
 | `shakeitoff` | Dismount any entity riding you. |
 
@@ -68,5 +69,10 @@ These commands are used to create and manage player chat rooms.
 | Command | Description |
 | --- | --- |
 | `warp (warpName)` | Teleport to a warp. Without a name, opens the warp menu. |
+| `warp crates` | Teleport to the crates warp. |
+| `warp afk` | Teleport to the AFK area. |
+| `warp store` | Teleport to the server store area. |
+
+Current server warps are `crates`, `afk`, and `store`. Use `spawn` any time you want to return to spawn.
 
 For player-created warps and management commands, see [Player Warps](/servers/survival/player-warps).

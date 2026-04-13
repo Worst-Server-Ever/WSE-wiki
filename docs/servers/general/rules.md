@@ -83,6 +83,7 @@ These rules apply across WSE. Gamemode-specific rules are included below.
 - The Survival world uses a claim protection system.
 - Anything outside of claims is considered unprotected and may be interacted with by other players.
 - Players are responsible for claiming their builds and valuables.
+- Do not claim near other players without concent, generally leave 100 blocks between the edge of your claim. If you have concent, please save evidance to help with any disputes. If someone has claimed too close to you, please open a Player Report in the Discord
 
 ### Trusted players
 

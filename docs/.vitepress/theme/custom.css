@@ -9,10 +9,10 @@
   --vp-c-text-1: #241c14;
   --vp-c-text-2: #4f4032;
   --vp-c-text-3: #786854;
-  --vp-c-brand-1: #f6d36a;
-  --vp-c-brand-2: #f0b74f;
-  --vp-c-brand-3: #fbe6a8;
-  --vp-c-brand-soft: rgba(246, 211, 106, 0.18);
+  --vp-c-brand-1: #5d2f88;
+  --vp-c-brand-2: #7440a6;
+  --vp-c-brand-3: #8e59c4;
+  --vp-c-brand-soft: rgba(116, 64, 166, 0.16);
   --wse-panel-bg: rgba(255, 251, 245, 0.96);
   --wse-nav-bg: rgba(247, 242, 234, 0.86);
   --wse-sidebar-bg: rgba(245, 238, 228, 0.88);
@@ -43,7 +43,7 @@
   --vp-custom-block-danger-text: #7a1717;
   --vp-custom-block-danger-bg: rgba(246, 99, 99, 0.18);
   --vp-custom-block-danger-code-bg: rgba(246, 99, 99, 0.24);
-  --vp-home-hero-name-color: #8a5b00;
+  --vp-home-hero-name-color: #5d2f88;
   --vp-home-hero-image-background-image: radial-gradient(circle, rgba(155, 92, 255, 0.28), transparent 65%);
   --vp-home-hero-image-filter: drop-shadow(0 14px 34px rgba(0, 0, 0, 0.45));
 }
@@ -56,6 +56,10 @@
   --vp-c-text-1: #f6eefc;
   --vp-c-text-2: #c8bddb;
   --vp-c-text-3: #a79abd;
+  --vp-c-brand-1: #f6d36a;
+  --vp-c-brand-2: #f0b74f;
+  --vp-c-brand-3: #fbe6a8;
+  --vp-c-brand-soft: rgba(246, 211, 106, 0.18);
   --wse-panel-bg: rgba(15, 12, 10, 0.94);
   --wse-nav-bg: rgba(20, 20, 27, 0.85);
   --wse-sidebar-bg: rgba(14, 12, 18, 0.82);
@@ -121,13 +125,25 @@ h3 {
 }
 
 .VPButton.brand {
+  background: linear-gradient(135deg, #8e59c4, #7440a6);
+  color: #f8f2ff;
+  border: 1px solid #7440a6;
+  box-shadow: 0 10px 24px rgba(116, 64, 166, 0.28);
+}
+
+.VPButton.brand:hover {
+  background: linear-gradient(135deg, #9c66d4, #8450ba);
+  box-shadow: 0 16px 32px rgba(116, 64, 166, 0.34);
+}
+
+.dark .VPButton.brand {
   background: linear-gradient(135deg, #f6d36a, #f0b74f);
   color: #17151c;
   border: 1px solid #f6d36a;
   box-shadow: 0 10px 24px rgba(246, 211, 106, 0.25);
 }
 
-.VPButton.brand:hover {
+.dark .VPButton.brand:hover {
   background: linear-gradient(135deg, #fbe6a8, #f4c76d);
   box-shadow: 0 16px 32px rgba(246, 211, 106, 0.35);
 }
@@ -198,6 +214,23 @@ h3 {
 .VPDoc .content,
 .VPHome .VPHomeContent {
   padding: 1.25rem;
+}
+
+.VPHome .join-box {
+  background: var(--wse-panel-bg);
+  border: 1px solid var(--wse-panel-border);
+  border-radius: 18px;
+  box-shadow: var(--wse-panel-shadow);
+  padding: 1.5rem 1.75rem;
+  backdrop-filter: blur(10px);
+}
+
+.VPHome .join-box > :first-child {
+  margin-top: 0;
+}
+
+.VPHome .join-box > :last-child {
+  margin-bottom: 0;
 }
 
 .claiming-page .vp-doc table {

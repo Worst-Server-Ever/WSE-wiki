@@ -26,6 +26,9 @@ export default defineConfig({
           items: [
             { text: 'Server Rules', link: '/servers/general/rules' },
             { text: 'General Overview', link: '/servers/general/' },
+            { text: 'Credits', link: '/servers/general/credits' },
+            { text: 'WPE', link: '/servers/general/wpe' },
+            { text: 'Rewards', link: '/servers/general/rewards' },
             { text: 'How to Join on Console', link: '/servers/general/console' },
             { text: 'Examples', link: '/markdown-examples' },
           ]
@@ -37,6 +40,7 @@ export default defineConfig({
           items: [
             { text: 'Survival Overview', link: '/servers/survival/' },
             { text: 'Claiming (GriefPrevention)', link: '/servers/survival/claiming' },
+            { text: 'Chest Shops', link: '/servers/survival/chest-shops' },
             { text: 'EvenMoreFish', link: '/servers/survival/evenmorefish' },
             { text: 'How to Make E-Meralds', link: '/servers/survival/e-meralds' },
             { text: 'Survival Commands', link: '/servers/survival/commands' },
