@@ -39,6 +39,7 @@ export default defineConfig({
           text: 'Survival',
           items: [
             { text: 'Survival Overview', link: '/servers/survival/' },
+            { text: 'Brewery', link: '/servers/survival/brewery' },
             { text: 'Claiming (GriefPrevention)', link: '/servers/survival/claiming' },
             { text: 'Chest Shops', link: '/servers/survival/chest-shops' },
             { text: 'EvenMoreFish', link: '/servers/survival/evenmorefish' },

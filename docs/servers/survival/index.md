@@ -6,6 +6,7 @@ Use this section for gameplay guides, progression info, and Survival-specific co
 
 ## Quick Links
 
+- [Brewery](/servers/survival/brewery)
 - [Claiming (GriefPrevention)](/servers/survival/claiming)
 - [Chest Shops](/servers/survival/chest-shops)
 - [EvenMoreFish](/servers/survival/evenmorefish)
